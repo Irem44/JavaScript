@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.form_input {
+  display: inline-block;
+  width: 80%;
+}
+
+.list div {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+ul li {
+  display: flex;
+  background-color: antiquewhite;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+ul li .delete-icon {
+  transform: scale(0);
+}
+ul li:hover .delete-icon {
+  transform: scale(1);
+}
+.delete-icon i {
+  color: red;
+}

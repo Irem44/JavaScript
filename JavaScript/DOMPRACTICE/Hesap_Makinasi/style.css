@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+#form {
+  width: 50%;
+  margin-top: 1rem;
+  background-color: #abba7c;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  padding: 1rem;
+  padding-left: 0;
+}
+button {
+  margin: 1.5rem;
+  width: 75px;
+}
+
+.baslik {
+  width: 50%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.baslik h1 {
+  flex: 1;
+}
+
+.baslik i {
+  font-size: 2rem;
+}
